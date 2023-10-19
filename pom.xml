@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.prc</groupId>
 	<artifactId>SpringBootJenkinsPrac</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>SpringBootJenkinsPrac</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -19,7 +19,7 @@
 		<url>https://github.com/NikhilPandey1234/TestingRepo1.git</url> <!-- GIT URL -->
 		<connection>scm:git:https://github.com/NikhilPandey1234/TestingRepo1.git</connection> <!-- URL HTTP de clone do projeto -->
 		<developerConnection>scm:git:https://github.com/NikhilPandey1234/TestingRepo1.git</developerConnection>
-		<tag>v0.0.1</tag>
+		<tag>v@{project.version}</tag>
 	</scm>
 	<dependencies>
 		<dependency>
